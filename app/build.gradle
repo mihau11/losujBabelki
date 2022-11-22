@@ -7,6 +7,10 @@ android {
     namespace 'com.nkodem.losujbbelki'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.nkodem.losujbbelki"
         minSdk 21
